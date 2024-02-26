@@ -1,0 +1,53 @@
+body   {
+
+    background: url(https://cd2.saumag.edu/library/files/2017/02/DSC_1673-Edit2-1024x504.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+ h1 {
+   text-align: center;
+ }
+ p {
+     
+     margin-top: 0;
+     margin-bottom: 1rem;
+     background-color: #bc4ed6bd;
+     color: white;
+ }
+ 
+ .text-danger {
+     color: #E7245D;
+ }
+ .center-block {
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ 
+ 
+ .btn {
+     position: absolute;
+     top: 25%;
+     left:  50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     background-color: #f1f1f1;
+     color: black;
+     font-size: 16px;
+     padding: 1px 17px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ .btn:hover {
+     background-color: #40aeb7;
+     color: white;
+ }
+ input, button {
+     display: block;
+     margin: 0 auto;
+ }
